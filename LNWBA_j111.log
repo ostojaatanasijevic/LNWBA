@@ -5,37 +5,67 @@ WARNING: Less than two connections to node -5V.  This node is used by V4.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
-Gmin = 1.07374
 vernier = 0.5
+Gmin = 1.67772
 vernier = 0.25
 vernier = 0.125
-Gmin = 1.02385
+Gmin = 1.24103
 vernier = 0.0625
 vernier = 0.03125
-vernier = 0.015625
-Gmin = 1.01955
-vernier = 0.0078125
-vernier = 0.00390625
-Gmin = 1.0126
-vernier = 0.00195313
-vernier = 0.00260417
-vernier = 0.00130208
-Gmin = 1.00915
-vernier = 0.00173611
-vernier = 0.000868055
-Gmin = 1.00685
-vernier = 0.00115741
-vernier = 0.000578703
-Gmin = 1.0054
-vernier = 0.000771604
-vernier = 0.000578703
-vernier = 0.000771604
-vernier = 0.000578703
-Gmin = 1.00448
-vernier = 0.000434027
-vernier = 0.000578703
-vernier = 0.000434027
-Gmin = 1.00382
+Gmin = 1.14839
+vernier = 0.0416667
+vernier = 0.0208333
+Gmin = 1.09313
+vernier = 0.0277778
+vernier = 0.0138889
+vernier = 0.0185185
+vernier = 0.00925925
+Gmin = 1.07186
+vernier = 0.0123457
+vernier = 0.00617283
+Gmin = 1.0506
+vernier = 0.00823044
+vernier = 0.00411522
+Gmin = 1.03985
+vernier = 0.00548696
+vernier = 0.00274348
+vernier = 0.00365797
+Gmin = 1.03334
+vernier = 0.00182899
+vernier = 0.00243865
+Gmin = 1.02941
+vernier = 0.00121932
+vernier = 0.00162576
+Gmin = 1.0268
+vernier = 0.00216769
+vernier = 0.00108384
+vernier = 0.00144512
+Gmin = 1.02421
+vernier = 0.000722562
+vernier = 0.000963415
+Gmin = 1.02267
+vernier = 0.00128455
+vernier = 0.000642277
+vernier = 0.000856369
+Gmin = 1.02113
+vernier = 0.000428184
+vernier = 0.000570912
+Gmin = 1.02001
+vernier = 0.000761216
+vernier = 0.000570912
+Gmin = 1.01884
+vernier = 0.000761216
+vernier = 0.000570912
+vernier = 0.000428184
+Gmin = 1.01797
+vernier = 0.000570912
+vernier = 0.000428184
+Gmin = 1.0171
+vernier = 0.000570912
+vernier = 0.000428184
+vernier = 0.000570912
+Gmin = 1.01619
+vernier = 0.000428184
 Gmin = 0
 Gmin stepping failed
 
@@ -46,22 +76,22 @@ Source Step = 63.6364%
 Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
-Heightened Def Con from 3.78096e-006 to 3.78096e-006
+Heightened Def Con from 2.22151e-005 to 2.22151e-005
 
-Date: Tue Nov 05 09:44:20 2024
-Total elapsed time: 1.277 seconds.
+Date: Tue Nov 05 16:23:44 2024
+Total elapsed time: 2.886 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 225692
-traniter = 219785
-tranpoints = 51941
-accept = 38895
-rejected = 13047
-matrix size = 98
-fillins = 182
+totiter = 574989
+traniter = 562017
+tranpoints = 133439
+accept = 99540
+rejected = 33900
+matrix size = 99
+fillins = 177
 solver = Normal
-Matrix Compiler1: 13.25 KB object code size  1.8/0.7/[0.5]
-Matrix Compiler2: 11.08 KB object code size  0.5/0.7/[0.5]
+Matrix Compiler1: 13.88 KB object code size  1.7/0.7/[0.6]
+Matrix Compiler2: 11.03 KB object code size  0.6/0.8/[0.6]
 
