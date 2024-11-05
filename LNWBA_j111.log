@@ -1,0 +1,67 @@
+Circuit: * Z:\home\ostoja\Elektronika\LNWBA\LNWBA_j111.asc
+
+Warning: Multiple definitions of model "lsk389b" Type: JFET
+WARNING: Less than two connections to node -5V.  This node is used by V4.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 1.02385
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 1.01955
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 1.0126
+vernier = 0.00195313
+vernier = 0.00260417
+vernier = 0.00130208
+Gmin = 1.00915
+vernier = 0.00173611
+vernier = 0.000868055
+Gmin = 1.00685
+vernier = 0.00115741
+vernier = 0.000578703
+Gmin = 1.0054
+vernier = 0.000771604
+vernier = 0.000578703
+vernier = 0.000771604
+vernier = 0.000578703
+Gmin = 1.00448
+vernier = 0.000434027
+vernier = 0.000578703
+vernier = 0.000434027
+Gmin = 1.00382
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+Heightened Def Con from 3.78096e-006 to 3.78096e-006
+
+Date: Tue Nov 05 09:44:20 2024
+Total elapsed time: 1.277 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 225692
+traniter = 219785
+tranpoints = 51941
+accept = 38895
+rejected = 13047
+matrix size = 98
+fillins = 182
+solver = Normal
+Matrix Compiler1: 13.25 KB object code size  1.8/0.7/[0.5]
+Matrix Compiler2: 11.08 KB object code size  0.5/0.7/[0.5]
+
