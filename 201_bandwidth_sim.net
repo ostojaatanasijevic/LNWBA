@@ -1,0 +1,60 @@
+* Z:\home\ostoja\Elektronika\LNWB_BJT\201_bandwidth_sim.asc
+V1 12V 0 12
+V2 -15V 0 -15
+V7 N004 0 SINE(0 0.02m {f})
+R10 12V N002 1.5k
+R11 12V N003 1.5k
+C4 N006 N005 100n
+R14 N005 N004 50
+R15 N006 0 50
+R24 20x_OUTPUT N007 2k
+R25 N007 0 50
+C11 20x_OUTPUT N007 5p
+Q5 N002 N006 N009 0 2N4401
+Q6 N003 N007 N009 0 2N4401
+V3 -5V 0 -5
+V4 5V 0 5
+D1 N011 0 1N4148
+D2 N006 N011 1N4148
+D3 N010 N006 1N4148
+D4 0 N010 1N4148
+B1 N012 0 V=V(20x_OUTPUT)
+C3 out_1 N012 10000
+R3 out_1 0 1m
+D7 N015 -5V 1N4148
+D8 N014 N015 1N4148
+R2 12V N014 10k
+R4 N009 -5V 330
+XU1 N003 N002 5V -5V 20x_OUTPUT AD8009an
+B2 N008 0 V=V(out_1)
+D5 N008 max_1 MyIdealDiode
+C1 max_1 0 1µ
+D6 min_1 N008 MyIdealDiode
+C2 min_1 0 1µ
+B3 N013 0 V=V(max_1) - V(min_1)
+R5 12V N016 1k
+Q1 12V N019 N020 0 2N4401
+Q2 N016 0 N020 0 2N4401
+R6 N020 -5V 200
+R1 N019 0 50
+C5 N019 N018 10µ
+V5 N017 0 SINE(0 0.02m {f})
+R7 N018 N017 50
+.model D D
+.lib C:\users\ostoja\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\ostoja\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.lib Z:\home\ostoja\Elektronika\LNWBA\LSK389B.lib
+.tran 200u
+.lib Z:\home\ostoja\Elektronika\LNWBA\lm7171.lib
+.lib Z:\home\ostoja\Elektronika\LNWBA\LM6171A.MOD
+.param Trim = 100
+* 40x
+* 0.5x
+.step param f list 100k 1Meg 5Meg 9Meg 13Meg 17Meg 21Meg 25Meg
+.ic V(m1) = 0
+.model MyIdealDiode D(Ron=1 Roff=100Meg Vfwd=0 Vrev=20)
+.lib AD8009an.sub
+.backanno
+.end

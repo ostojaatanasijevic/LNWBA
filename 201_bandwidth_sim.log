@@ -1,0 +1,32 @@
+Circuit: * Z:\home\ostoja\Elektronika\LNWB_BJT\201_bandwidth_sim.asc
+
+Unknown node in .ic card: "m1" -- ignoring
+WARNING: Less than two connections to node -15V.  This node is used by V2.
+WARNING: Less than two connections to node N013.  This node is used by B3.
+Direct Newton iteration for .op point succeeded.
+.step f=100000
+.step f=1e+006
+.step f=5e+006
+.step f=9e+006
+.step f=1.3e+007
+.step f=1.7e+007
+.step f=2.1e+007
+.step f=2.5e+007
+
+Date: Sun Dec 01 11:38:13 2024
+Total elapsed time: 9.872 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 420762
+traniter = 420715
+tranpoints = 200011
+accept = 120019
+rejected = 79992
+matrix size = 98
+fillins = 40
+solver = Normal
+Matrix Compiler1: 6.74 KB object code size  0.9/0.4/[0.3]
+Matrix Compiler2: 8.52 KB object code size  0.5/0.6/[0.4]
+
